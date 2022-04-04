@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans", sans-serif;
+}
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+}
+
+/* HEADER */
+.header {
+    height: 50vh;
+    background-color: #1D539E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.header h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.header p {
+    font-weight: 1.12rem;
+    margin-top: 1.25rem;
+}
+
+
+/* Cards */
+
+
+.card {
+    width: 22.18rem;
+    height: 29.37rem;
+    border-radius: 0.5rem;
+    background : var(--page-background);
+    margin-right: 1.25rem;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: -6rem;
+}
+
+.free {
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    background-color: var(--page-background);
+    
+}
+
+
+ p.titulo-1 {
+    font-size: 1.12rem;
+    margin-left: 1.12rem;
+    margin-top: 1.12rem;
+    font-weight: 600;
+}
+
+.free h6 {
+    font-size: 2.25rem;
+    margin-top: 1.25rem;
+    font-weight: 700;
+    margin-left: 1.12rem;
+}
+
+.free span {
+    color: var(--gray);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.subtitulo {
+    font-size: 0.87rem;
+    color: var(--gray);
+    margin-left: 1.12rem;
+    margin-top: 0.62rem;
+}
+
+.check {
+    display: flex;
+    margin-left: 1.87rem;
+    margin-top: 1.25rem;
+    font-size: 0.87rem;
+
+}
+
+.check p {
+    color: var(--gray);
+    margin-left: 1rem;
+    
+}
+
+.divider {
+    height: 1px;
+    background: #EEEEEE;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.botao1 {
+    margin-top: 7.5rem;
+    display: flex;
+    width: 80%;
+    margin-left: 2rem;
+    height: 3.06rem;
+    align-items: center;
+    justify-content: center;
+    background: var(--page-background);
+    border : 1px solid var(--blue);
+    color: var(--blue);
+    border-radius: 0.62rem;
+}
+
+
+/* Basico */
+
+.basico {
+    background: var(--page-background);
+    margin-top:-2.5rem;
+}
+.background {
+    height: 4.75rem;
+    width:100%;
+    background: var(--yellow);
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    display: flex;
+    justify-content:space-between;
+    border-radius: 0.5rem;
+}
+
+.basico1 {
+    font-size: 1.25rem;
+    color: var(--blue);
+    font-weight : 600;
+    margin-left: 1.87rem;
+    margin-top: 1.56rem;
+}
+
+.basico2 {
+    background : var(--blue);
+    color: white;
+    font-size : 0.75rem;
+    height: 2rem;
+    width: 5.87rem;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    margin-top: 1.37rem;
+    margin-right: 1.25rem;
+    border-radius: 2.5rem;
+}
+.basico h6 {
+    font-size: 2.25rem;
+    margin-top: 1.25rem;
+    font-weight: 700;
+    margin-left: 1.12rem;
+}
+.basico span {
+    color: var(--gray);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.botao2 {
+    margin-top: 6.5rem;
+    display: flex;
+    width: 80%;
+    margin-left: 2rem;
+    height: 3.06rem;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue);
+    border : 1px solid var(--blue);
+    color: white;
+    border-radius: 0.62rem;
+    font-size:1.25rem;
+    font-weight: 600 normal;
+}
+
+.card2{
+    width: 22.18rem;
+    height: 32.00rem;
+    border-radius: 0.5rem;
+    background : var(--page-background);
+    margin-right: 1.25rem;
+}
+
+/* PROFESSIONAL CARD */
+
+.pro h6 {
+    font-size: 2.25rem;
+    margin-top: 1.25rem;
+    font-weight: 700;
+    margin-left: 1.12rem;
+}
+.pro span {
+    color: var(--gray);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.botao3{
+    margin-top: 4.1rem;
+    display: flex;
+    width: 80%;
+    margin-left: 2rem;
+    height: 3.06rem;
+    align-items: center;
+    justify-content: center;
+    background: var(--page-background);
+    border : 1px solid var(--blue);
+    color: var(--blue);
+    border-radius: 0.62rem;
+}
